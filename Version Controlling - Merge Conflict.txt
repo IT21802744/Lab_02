@@ -1,0 +1,20 @@
+Merge Conflict
+
+In version controller automatically changes occure, 
+If git cant perform merge changes automatically conflict occures
+
+Solution
+
+	Manually check and do changes is not possible in large projects so branching is used.
+	Allow Devs to work indivitually
+	Sandbox concept (Explain)
+
+After completing entire feature send a pull request -> upon verification compare from base (main) and (dev), merge changes to main
+also, merge can be accepted or declined by repository owner (can also accpted by any but mostly done a privilage repository owner)
+
+Once the feature is done branch is deleted (Industry Practice)
+
+When naming branches there is a rule 
+	Standard: feature/<Person-who-is-working-on>/<The-feature-that-you-are-on>
+
+For each updates do Hotfix(Minor bugs)
